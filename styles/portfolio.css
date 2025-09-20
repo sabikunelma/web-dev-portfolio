@@ -1,6 +1,9 @@
+/* common style */
 
-
-
+.secondary-bd{
+    
+    background-color: #FFF8F3;
+}
 
 
 /* whole body font */
@@ -103,4 +106,31 @@ nav li a{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, right bottom;
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* section-1 styles */
+
+.about{
+   text-align: center;
+    border-radius: 10px;
+    margin-top: 90px;
+    padding: 136px 156px;
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
 }
