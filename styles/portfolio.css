@@ -4,7 +4,11 @@
     
     background-color: #FFF8F3;
 }
-
+.section-title{
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 50px;
+}
 
 /* whole body font */
 
@@ -121,10 +125,12 @@ main{
 .about{
    text-align: center;
     border-radius: 10px;
-    margin-top: 90px;
-    padding: 136px 156px;
+    margin-top: 130px;
+    padding: 130px 150px;
 }
-
+.about .section-title{
+    margin-top: 20px;
+}
 
 .about-items{
     display: flex;
@@ -155,4 +161,34 @@ main{
 }
 .skills{
     margin-top: 130px;
+}
+
+
+/* Resume styles */
+
+.resume-cointainer{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    text-align: center;
+    margin-top: 40px;
+}
+.text-center{
+    text-align: center;
+}
+
+.resume-coloum{
+    margin-top: 20px;
 }
