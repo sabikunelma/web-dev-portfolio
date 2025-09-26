@@ -4,6 +4,18 @@
     
     background-color: #FFF8F3;
 }
+
+/* button */
+.btn{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 16px 30px;
+}
+
 .section-title{
     margin-top: 130px;
     font-weight: 600;
@@ -64,16 +76,6 @@ nav li a{
 
 
 
-/* button */
-.btn{
-    background-color: #FD6E0A;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: aliceblue;
-    padding: 16px 30px;
-}
 
 /* banner styles */
 
@@ -191,4 +193,27 @@ main{
 
 .resume-coloum{
     margin-top: 20px;
+}
+
+/* footer-style */
+
+footer{
+    display: flex;
+    gap: 100px;
+   padding: 80px 230px;
+   margin-top: 113px;
+}
+
+footer [type="text"], footer [type="email"], footer textarea {
+    display: block;
+    margin-bottom: 24px;
+    height: 64px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+
+
 }
